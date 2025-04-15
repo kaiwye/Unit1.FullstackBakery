@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 0;
+}
+
+body {
+  background: url(https://img.freepik.com/free-photo/variation-homemade-baked-pastry-cuisine_53876-23095.jpg?semt=ais_hybrid&w=740)
+    center fixed;
+  background-size: cover;
+  width: 80vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.brand {
+  display: flex;
+  color: #8e1616;
+  font-weight: 900;
+  font-size: 5vw;
+}
+
+a {
+  text-decoration: none;
+  color: #e8c999;
+  background: #8e1616;
+  border: solid;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+main {
+  display: flex;
+  flex-grow: 5;
+}
+
+ul {
+  color: #e8c999;
+  background: #8e1616;
+  border: 5px solid;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  border-bottom: 5px solid;
+  margin: 0rem;
+  padding: 1em;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.testimonial {
+  background-color: #f8eedf;
+  font-style: italic;
+  width: 40vw;
+}
+
+h1 {
+  color: #8e1616;
+  font-size: 4vh;
+}
+
+p {
+  width: 40vw;
+}
+
+footer {
+  background-color: #8e1616;
+  color: #e8c999;
+  text-align: center;
+  font-size: 2vh;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border: 5px solid;
+  margin: 0rem;
+  padding: 1em;
+}
